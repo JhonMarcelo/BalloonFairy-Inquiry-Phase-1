@@ -1,0 +1,19 @@
+{
+"client Inquiry" :[
+    {
+        
+        "name": "",
+        "address": "",
+        "order" : "",
+        "Inquiry" : "",
+        "id": 1
+
+    },
+    {
+        "name": "",
+         "address": "",
+          "Inquiry" : ""
+    }
+
+]
+}
