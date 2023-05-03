@@ -28,21 +28,27 @@
     <!--FORM-->
     <fieldset> <legend>Inquiry</legend>
     <form id = "inquiryForm">
+        <br>
         <input type="text" id ="fullName" name = "fullName" placeholder="Your Full Name" required>
-        <br>
+        <br><br>
         <input type="text" id ="emailAddress" name = "emailAddress" placeholder="E-mail Address" required>
-        <br>
+        <br><br>
         <input type="text" id ="phoneNumber" name = "phoneNumber" placeholder="Phone Number" required>
-        <br>
-        <input type="radio" name = "gender" id = "male" value = "male">
-        <label>Male</label>
-        <input type="radio" name = "gender" id = "female" value = "female">
-        <label>Female</label>
-        <br>        
+        <br><br>
+        
+        <label>Balloon Type:</label>
+        <select name="balloon">
+            <option value="garland">Garland</option>
+            <option value="balloonTower">Balloon Tower</option>
+            <option value="heliumBalloons">Helium Balloons</option>
+            <option value="bobaBalloons">Boba Balloons</option>
+        </select>
+       
+        <br><br>      
         <textarea id="message" rows="4" placeholder="How can we help you?"></textarea>
         <br>
-        <input type="submit">
         <input type="reset">
+        <input type="submit">
     </fieldset>
 
 <!-- <br>
