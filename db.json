@@ -1,19 +1,21 @@
 {
 "client_Inquiry" :[
     {
-        
         "name": "",
         "address": "",
         "order" : "",
         "Inquiry" : "",
+        "status":"Delivered",
         "id": 1
-
     },
     {
         "name": "",
-         "address": "",
-          "Inquiry" : ""
+        "address": "",
+        "order" : "",
+        "Inquiry" : "",
+        "status":"In-queue",
+        "id": 2
     }
-
+   
 ]
 }
