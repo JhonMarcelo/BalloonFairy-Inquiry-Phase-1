@@ -14,8 +14,40 @@
         "phoneNumber" : "",
         "balloonType" : "",
         "inquiryMessage":"",
-        "id": 1
+        "id": 2
     }
    
+    ],
+"balloon_types" :[
+    {
+        "id" : 1,
+        "type": "garland",
+        "img": "imageLink",
+        "description" : "describe garland"
+    },
+    {
+        "id" : 2,
+        "type": "balloonTower",
+        "img": "imageLink",
+        "description" : "describe balloonTower"
+    },
+    {
+        "id" : 3,
+        "type": "heliumBalloons",
+        "img": "imageLink",
+        "description" : "describe heliumBalloons"
+    },
+    {
+        "id" : 4,
+        "type": "bobaBalloons",
+        "img": "imageLink",
+        "description" : "describe bobaBalloons"
+    },
+    {
+        "id" : 5,
+        "type": "balloonPost",
+        "img": "imageLink",
+        "description" : "describe balloonPost"
+    },
 ]
 }
