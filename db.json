@@ -1,20 +1,20 @@
 {
 "client_Inquiry" :[
     {
-        "name": "",
-        "address": "",
-        "order" : "",
-        "Inquiry" : "",
-        "status":"Delivered",
+        "fullName": "",
+        "emailAddress": "",
+        "phoneNumber" : "",
+        "balloonType" : "",
+        "inquiryMessage":"",
         "id": 1
     },
     {
-        "name": "",
-        "address": "",
-        "order" : "",
-        "Inquiry" : "",
-        "status":"In-queue",
-        "id": 2
+        "fullName": "",
+        "emailAddress": "",
+        "phoneNumber" : "",
+        "balloonType" : "",
+        "inquiryMessage":"",
+        "id": 1
     }
    
 ]
