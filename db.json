@@ -22,37 +22,49 @@
     {
         "id" : 1,
         "type": "balloonGarland",
-        "img": '<img src ="./images/BalloonGarland.webp" alt = "Garland Photo">',
+        "img1": "https://drive.google.com/uc?export=view&id=1PfbWTX7Yc9nzsHM8ppCxfI2jHsBUdzIo",
+        "img2": "imageLink",
+        "img3": "imageLink",
         "description" : "describe garland"
     },
     {
         "id" : 2,
         "type": "balloonTower",
-        "img": "imageLink",
+        "img1": "https://drive.google.com/uc?export=view&id=11sqyGGnyIGYlRYvUV_xBdwKdw6JKMqcP",
+        "img2": "imageLink",
+        "img3": "imageLink",
         "description" : "describe balloonTower"
     },
     {
         "id" : 3,
         "type": "marqueeNumbersOrLetters",
-        "img": "imageLink",
+        "img1": "https://drive.google.com/uc?export=view&id=1PHlUvlti5-2eNFZuHQNRrEd4sPNerZCZ",
+        "img2": "imageLink",
+        "img3": "imageLink",
         "description" : "describe marqueeNumbersOrLetters"
     },
     {
         "id" : 4,
         "type": "heliumBalloons",
-        "img": "imageLink",
+        "img1": "https://drive.google.com/uc?export=view&id=1hz2oKJAy8vv62jcM6x2Yk9vsbvsI8QnG",
+        "img2": "imageLink",
+        "img3": "imageLink",
         "description" : "describe heliumBalloons"
     },
     {
         "id" : 5,
         "type": "bobaBalloons",
-        "img": "imageLink",
+        "img1": "https://drive.google.com/uc?export=view&id=1SYm68t-e8rvAdDpvAiYmV3lTyvVOUNkH",
+        "img2": "imageLink",
+        "img3": "imageLink",
         "description" : "describe bobaBalloons"
     },
     {
         "id" : 6,
         "type": "balloonPost",
-        "img": "imageLink",
+        "img1": "https://drive.google.com/uc?export=view&id=1vmPxIvPRQ0GMPrJQkkPjdUxasX33lKoJ",
+        "img2": "imageLink",
+        "img3": "imageLink",
         "description" : "describe balloonPost"
     },
 ]
