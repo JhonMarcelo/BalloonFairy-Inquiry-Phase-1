@@ -21,8 +21,8 @@
 "balloon_types" :[
     {
         "id" : 1,
-        "type": "garland",
-        "img": "imageLink",
+        "type": "balloonGarland",
+        "img": '<img src ="./images/BalloonGarland.webp" alt = "Garland Photo">',
         "description" : "describe garland"
     },
     {
@@ -33,18 +33,24 @@
     },
     {
         "id" : 3,
+        "type": "marqueeNumbersOrLetters",
+        "img": "imageLink",
+        "description" : "describe marqueeNumbersOrLetters"
+    },
+    {
+        "id" : 4,
         "type": "heliumBalloons",
         "img": "imageLink",
         "description" : "describe heliumBalloons"
     },
     {
-        "id" : 4,
+        "id" : 5,
         "type": "bobaBalloons",
         "img": "imageLink",
         "description" : "describe bobaBalloons"
     },
     {
-        "id" : 5,
+        "id" : 6,
         "type": "balloonPost",
         "img": "imageLink",
         "description" : "describe balloonPost"
