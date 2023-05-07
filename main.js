@@ -16,5 +16,6 @@ document.addEventListener("DOMContentLoaded",()=>{
 //FUNCTIONS
 
 function createBalloonGalrey(balloon){
-
+    let balloonType = document.getElementsByClassName("balloonType")
+    console.log(balloonType[1])
 }
