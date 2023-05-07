@@ -22,5 +22,14 @@ function createBalloonGalrey(balloon){
     //if it matches, will create a image element and adds h6 named 'description' for description
     //append img and description to that h4
 
-    
+    for(let i =0; i < balloonType.length; i++){
+        if(balloonType[i].id === balloon.type){
+            let img = document.createElement("img")
+            //img.classList.add(`${balloon.type} image1`)
+            img.src = balloon.img1
+
+            balloonType[i].append(img)
+        }
+
+    }
 }
