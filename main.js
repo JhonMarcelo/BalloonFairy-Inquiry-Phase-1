@@ -17,5 +17,10 @@ document.addEventListener("DOMContentLoaded",()=>{
 
 function createBalloonGalrey(balloon){
     let balloonType = document.getElementsByClassName("balloonType")
-    console.log(balloonType[1])
+    
+    //loop through ballonType and compare the its id to the balloon type,
+    //if it matches, will create a image element and adds h6 named 'description' for description
+    //append img and description to that h4
+
+    
 }
