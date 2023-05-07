@@ -70,7 +70,8 @@
         </select>
        
         <br><br>      
-        <textarea id="message" rows="4" placeholder="How can we help you?"></textarea>
+        <!-- NOT SENDING TEXT area value to db.json fixed by adding 'name = "inquiryMessage"' -->
+        <textarea name = "inquiryMessage" id="inquiryMessage" rows="4" placeholder="How can we help you?"></textarea>
         <br>
         <input type="reset">
         <input type="submit">

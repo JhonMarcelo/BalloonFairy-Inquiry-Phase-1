@@ -1,9 +1,3 @@
-console.log("Test")
-
-
-fetch("http://localhost:3000/client_Inquiry")
-.then(res=>res.json())
-.then(client => console.log(client))
 
 
 document.addEventListener("DOMContentLoaded",()=>{
@@ -15,11 +9,8 @@ document.addEventListener("DOMContentLoaded",()=>{
 
 //FORM
 const form = document.getElementById("inquiryForm")
-console.log(form)
+
 //EVENT LISTENER
-
-
-
 
 form.addEventListener("submit",(e)=>{
     e.preventDefault();
@@ -27,9 +18,25 @@ form.addEventListener("submit",(e)=>{
     //const formData = new FormData(form)
 
     const formData = Object.fromEntries(new FormData(e.target))
-    console.log(formData)
+    // console.log(formData)
+    // let message = document.getElementById("inquiryMessage")
+    // console.log(message.value)
 
-})
+
+    //*******WORKING BUT NOT SENDING TEXTAREA CONTENT TO DBJSON */
+    fetch("http://localhost:3000/client_Inquiry",{
+        method: 'POST',
+        headers: {
+            'content-type' : 'application/json'
+        },
+        body : JSON.stringify(formData)
+    })
+    .then(res => res.json())
+    .then(inquiry => console.log(inquiry))
+
+    }
+
+)
 
 
 

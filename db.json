@@ -1,71 +1,78 @@
 {
-"client_Inquiry" :[
+  "client_Inquiry": [
     {
-        "fullName": "",
-        "emailAddress": "",
-        "phoneNumber" : "",
-        "balloonType" : "",
-        "inquiryMessage":"",
-        "id": 1
+      "fullName": "",
+      "emailAddress": "",
+      "phoneNumber": "",
+      "balloonType": "",
+      "inquiryMessage": "",
+      "id": 1
     },
     {
-        "fullName": "",
-        "emailAddress": "",
-        "phoneNumber" : "",
-        "balloonType" : "",
-        "inquiryMessage":"",
-        "id": 2
+      "fullName": "",
+      "emailAddress": "",
+      "phoneNumber": "",
+      "balloonType": "",
+      "inquiryMessage": "",
+      "id": 2
+    },
+    {
+      "fullName": "Jhon Waree Marcelo",
+      "emailAddress": "mjhonwaree@gmail.com",
+      "phoneNumber": "6477671448",
+      "balloonType": "balloonTower",
+      "inquiryMessage": "Can I inquire about a lion king themed balloon tower and how much it is?\nthank you",
+      "id": 3
     }
-   
-    ],
-"balloon_types" :[
+  ],
+  "balloon_types": [
     {
-        "id" : 1,
-        "type": "balloonGarland",
-        "img1": "https://drive.google.com/uc?export=view&id=173DFn9YOF8zuzIYTTjvA5IPaTD-5GFNi",
-        "img2": "https://drive.google.com/uc?export=view&id=1-kqEY3ifHn9Q0dBF0xswCsSBCaymKhdR",
-        "img3": "https://drive.google.com/uc?export=view&id=183QjL7BX10MJ-XsB-vtizXdxM5ptE0Nn",
-        "description" : "describe garland"
+      "id": 1,
+      "type": "balloonGarland",
+      "img1": "https://drive.google.com/uc?export=view&id=173DFn9YOF8zuzIYTTjvA5IPaTD-5GFNi",
+      "img2": "https://drive.google.com/uc?export=view&id=1-kqEY3ifHn9Q0dBF0xswCsSBCaymKhdR",
+      "img3": "https://drive.google.com/uc?export=view&id=183QjL7BX10MJ-XsB-vtizXdxM5ptE0Nn",
+      "description": "describe garland"
     },
     {
-        "id" : 2,
-        "type": "balloonTower",
-        "img1": "https://drive.google.com/uc?export=view&id=11sqyGGnyIGYlRYvUV_xBdwKdw6JKMqcP",
-        "img2": "https://drive.google.com/uc?export=view&id=1TKM007cJ4u2Nqxj_O4_AdnU13qC9lSCp",
-        "img3": "https://drive.google.com/uc?export=view&id=17UGIvxvOKf_tVfta4CGTq1aS3WArWQTU",
-        "description" : "describe balloonTower"
+      "id": 2,
+      "type": "balloonTower",
+      "img1": "https://drive.google.com/uc?export=view&id=11sqyGGnyIGYlRYvUV_xBdwKdw6JKMqcP",
+      "img2": "https://drive.google.com/uc?export=view&id=1TKM007cJ4u2Nqxj_O4_AdnU13qC9lSCp",
+      "img3": "https://drive.google.com/uc?export=view&id=17UGIvxvOKf_tVfta4CGTq1aS3WArWQTU",
+      "description": "describe balloonTower"
     },
     {
-        "id" : 3,
-        "type": "marqueeNumbersOrLetters",
-        "img1": "https://drive.google.com/uc?export=view&id=1C0C3Zm6iZUosWoIAfoFvtrAlxyl6CLYh",
-        "img2": "https://drive.google.com/uc?export=view&id=12mz62IOKIhGISKFTiMdas7j0Cd8_2igs",
-        "img3": "https://drive.google.com/uc?export=view&id=1qJJ9Dix-pUjcZvbXAnNefBFJArcINJCV",
-        "description" : "describe marqueeNumbersOrLetters"
+      "id": 3,
+      "type": "marqueeNumbersOrLetters",
+      "img1": "https://drive.google.com/uc?export=view&id=1C0C3Zm6iZUosWoIAfoFvtrAlxyl6CLYh",
+      "img2": "https://drive.google.com/uc?export=view&id=12mz62IOKIhGISKFTiMdas7j0Cd8_2igs",
+      "img3": "https://drive.google.com/uc?export=view&id=1qJJ9Dix-pUjcZvbXAnNefBFJArcINJCV",
+      "description": "describe marqueeNumbersOrLetters"
     },
     {
-        "id" : 4,
-        "type": "heliumBalloons",
-        "img1": "https://drive.google.com/uc?export=view&id=1hz2oKJAy8vv62jcM6x2Yk9vsbvsI8QnG",
-        "img2": "https://drive.google.com/uc?export=view&id=1nM7RfG3-Ku7yecKXnRT7HLy-DJWVeWyV",
-        "img3": "https://drive.google.com/uc?export=view&id=1uzEx3jf6miW6t7dJx4VrGwMh1qtJAdZG",
-        "description" : "describe heliumBalloons"
+      "id": 4,
+      "type": "heliumBalloons",
+      "img1": "https://drive.google.com/uc?export=view&id=1hz2oKJAy8vv62jcM6x2Yk9vsbvsI8QnG",
+      "img2": "https://drive.google.com/uc?export=view&id=1nM7RfG3-Ku7yecKXnRT7HLy-DJWVeWyV",
+      "img3": "https://drive.google.com/uc?export=view&id=1uzEx3jf6miW6t7dJx4VrGwMh1qtJAdZG",
+      "description": "describe heliumBalloons"
     },
     {
-        "id" : 5,
-        "type": "bobaBalloons",
-        "img1": "https://drive.google.com/uc?export=view&id=1SYm68t-e8rvAdDpvAiYmV3lTyvVOUNkH",
-        "img2": "https://drive.google.com/uc?export=view&id=1o-CX0cwyQAnIUQq59xABays6khLEvxh-",
-        "img3": "https://drive.google.com/uc?export=view&id=1zSPkVql4OuZKeK1iPs2_WH5B27D9JANk",
-        "description" : "describe bobaBalloons"
+      "id": 5,
+      "type": "bobaBalloons",
+      "img1": "https://drive.google.com/uc?export=view&id=1SYm68t-e8rvAdDpvAiYmV3lTyvVOUNkH",
+      "img2": "https://drive.google.com/uc?export=view&id=1o-CX0cwyQAnIUQq59xABays6khLEvxh-",
+      "img3": "https://drive.google.com/uc?export=view&id=1zSPkVql4OuZKeK1iPs2_WH5B27D9JANk",
+      "description": "describe bobaBalloons"
     },
     {
-        "id" : 6,
-        "type": "balloonPost",
-        "img1": "https://drive.google.com/uc?export=view&id=1vmPxIvPRQ0GMPrJQkkPjdUxasX33lKoJ",
-        "img2": "https://drive.google.com/uc?export=view&id=1l5oj4ajjUsBOQoxokPWRlVtCDnwGhHwn",
-        "img3": "https://drive.google.com/uc?export=view&id=1GAbHNj7dHsJVri9T1fudeNHaOsqffUUG",
-        "description" : "describe balloonPost"
+      "id": 6,
+      "type": "balloonPost",
+      "img1": "https://drive.google.com/uc?export=view&id=1vmPxIvPRQ0GMPrJQkkPjdUxasX33lKoJ",
+      "img2": "https://drive.google.com/uc?export=view&id=1l5oj4ajjUsBOQoxokPWRlVtCDnwGhHwn",
+      "img3": "https://drive.google.com/uc?export=view&id=1GAbHNj7dHsJVri9T1fudeNHaOsqffUUG",
+      "description": "describe balloonPost"
     }
-]
+  ]
 }
