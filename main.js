@@ -26,6 +26,9 @@ function createBalloonGalrey(balloon){
         if(balloonType[i].id === balloon.type){
             let description = document.createElement('p')
             let img1 = document.createElement("img")
+            let form = document.getElementById("inquiryForm")
+            console.log(form)
+            //MOUSEOVER AND MOUSE LEAVE EVENTLISTENER
             img1.addEventListener("mouseover",()=>{
                 img1.width = "450"
                 img1.height = "350"
@@ -35,6 +38,12 @@ function createBalloonGalrey(balloon){
                 img1.height = "300"
             } )
             
+            //CLICK EVENT LISTENER
+            img1.addEventListener("click", ()=>{
+                console.log(form)
+            })
+
+
             //add description from db.json to p
             description.textContent = balloon.description
 
