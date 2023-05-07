@@ -24,11 +24,30 @@ function createBalloonGalrey(balloon){
 
     for(let i =0; i < balloonType.length; i++){
         if(balloonType[i].id === balloon.type){
-            let img = document.createElement("img")
-            //img.classList.add(`${balloon.type} image1`)
-            img.src = balloon.img1
+            let img1 = document.createElement("img")
+            img1.classList.add(`${balloon.type}img1`)
+            img1.src = balloon.img1
+            img1.width = "300"
+            img1.height = "200"
 
-            balloonType[i].append(img)
+
+//*******FIX SIZING FIRST BEFORE PUTTING THIS 2 IMG BACK */
+
+            let img2 = document.createElement("img")
+            img2.classList.add(`${balloon.type}img2`)
+            img2.src = balloon.img2
+            img2.width = "300"
+            img2.height = "200"
+
+            let img3 = document.createElement("img")
+            img3.classList.add(`${balloon.type}img3`)
+            img3.src = balloon.img3
+            img3.width = "300"
+            img3.height = "200"
+
+            
+            //,img2,img3 down there
+            balloonType[i].append(img1,img2,img3)
         }
 
     }
