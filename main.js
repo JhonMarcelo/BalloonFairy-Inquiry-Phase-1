@@ -27,7 +27,7 @@ function createBalloonGalrey(balloon){
             let description = document.createElement('p')
             let img1 = document.createElement("img")
             let form = document.getElementById("inquiryForm")
-            console.log(form)
+        
             //MOUSEOVER AND MOUSE LEAVE EVENTLISTENER
             img1.addEventListener("mouseover",()=>{
                 img1.width = "450"
@@ -38,9 +38,9 @@ function createBalloonGalrey(balloon){
                 img1.height = "300"
             } )
             
-            //CLICK EVENT LISTENER
+            //CLICK EVENT LISTENER to scroll down to inquiry form element
             img1.addEventListener("click", ()=>{
-                console.log(form)
+                form.scrollIntoView()
             })
 
 
@@ -66,6 +66,11 @@ function createBalloonGalrey(balloon){
                 img2.height = "300"
             } )
 
+             //CLICK EVENT LISTENER to scroll down to inquiry form element
+             img2.addEventListener("click", ()=>{
+                form.scrollIntoView()
+            })
+
             img2.classList.add(`${balloon.type}img2`)
             img2.src = balloon.img2
             img2.width = "400"
@@ -80,6 +85,10 @@ function createBalloonGalrey(balloon){
                 img3.width = "400"
                 img3.height = "300"
             } )
+             //CLICK EVENT LISTENER to scroll down to inquiry form element
+             img3.addEventListener("click", ()=>{
+                form.scrollIntoView()
+            })
 
             img3.classList.add(`${balloon.type}img3`)
             img3.src = balloon.img3
