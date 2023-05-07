@@ -13,6 +13,27 @@ document.addEventListener("DOMContentLoaded",()=>{
         
 });
 
+//FORM
+const form = document.getElementById("inquiryForm")
+console.log(form)
+//EVENT LISTENER
+
+
+
+
+form.addEventListener("submit",(e)=>{
+    e.preventDefault();
+
+    //const formData = new FormData(form)
+
+    const formData = Object.fromEntries(new FormData(e.target))
+    console.log(formData)
+
+})
+
+
+
+
 //FUNCTIONS
 
 function createBalloonGalrey(balloon){
@@ -102,3 +123,4 @@ function createBalloonGalrey(balloon){
 
     }
 }
+
