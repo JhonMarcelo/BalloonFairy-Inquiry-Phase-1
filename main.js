@@ -10,7 +10,13 @@ document.addEventListener("DOMContentLoaded",()=>{
 //FORM
 const form = document.getElementById("inquiryForm")
 
+//Carousel BTN
+const carouselBTN = document.getElementById("carouselBTN")
 //EVENT LISTENER
+
+carouselBTN.addEventListener("click", () => {
+    form.scrollIntoView()
+})
 
 form.addEventListener("submit",(e)=>{
     e.preventDefault();
