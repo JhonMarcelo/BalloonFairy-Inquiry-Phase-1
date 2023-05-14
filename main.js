@@ -3,7 +3,7 @@
 document.addEventListener("DOMContentLoaded",()=>{
     fetch("http://localhost:3000/balloon_types")
     .then(res => res.json())
-    .then(balloon => balloon.forEach(balloonPic => createBalloonGalrey(balloonPic)))
+    .then(balloon => balloon.forEach(balloonPic => createBalloonGallery(balloonPic)))
         
 });
 
@@ -43,7 +43,7 @@ form.addEventListener("submit",(e)=>{
 
 //FUNCTIONS
 
-function createBalloonGalrey(balloon){
+function createBalloonGallery(balloon){
     let balloonType = document.getElementsByClassName("balloonType")
     
     //loop through ballonType and compare the its id to the balloon type,
@@ -83,6 +83,7 @@ function createBalloonGalrey(balloon){
 
 
 //*******FIX SIZING FIRST BEFORE PUTTING THIS 2 IMG BACK */
+// ******** ADDING MOUSEOVER AND MOSUELEAVE EVENT LISTENER *********
 
             let img2 = document.createElement("img")
             img2.addEventListener("mouseover",()=>{
@@ -113,7 +114,8 @@ function createBalloonGalrey(balloon){
                 img3.width = "400"
                 img3.height = "300"
             } )
-             //CLICK EVENT LISTENER to scroll down to inquiry form element
+
+             // ADDING CLICK EVENT LISTENER to scroll down to inquiry form element
              img3.addEventListener("click", ()=>{
                 form.scrollIntoView()
             })
