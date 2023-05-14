@@ -78,3 +78,15 @@ body{
 #btn{
     background-color: #FEA1A1 !important;
 }
+
+.balloonType{
+    margin-left: 12rem;
+    margin-right: 12rem;
+    margin-top: 5rem;
+}
+.formInquiry{
+    background-color: #F0EDD4;
+    padding-left: 12rem;
+    
+    
+}
