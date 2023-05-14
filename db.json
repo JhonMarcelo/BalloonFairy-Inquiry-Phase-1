@@ -23,6 +23,14 @@
       "balloonType": "balloonTower",
       "inquiryMessage": "Can I inquire about a lion king themed balloon tower and how much it is?\nthank you",
       "id": 3
+    },
+    {
+      "fullName": "Mark",
+      "emailAddress": "mark@gmail.com",
+      "phoneNumber": "6477971887",
+      "balloonType": "heliumBalloons",
+      "inquiryMessage": "Hi, can I order 50pcs of helium ballons",
+      "id": 4
     }
   ],
   "balloon_types": [
@@ -32,7 +40,7 @@
       "img1": "https://drive.google.com/uc?export=view&id=173DFn9YOF8zuzIYTTjvA5IPaTD-5GFNi",
       "img2": "https://drive.google.com/uc?export=view&id=1-kqEY3ifHn9Q0dBF0xswCsSBCaymKhdR",
       "img3": "https://drive.google.com/uc?export=view&id=183QjL7BX10MJ-XsB-vtizXdxM5ptE0Nn",
-      "description": "describe garland"
+      "description": "A balloon garland is a string of inflated balloons that are often used as decoration. Balloon garlands are often seen at birthday parties, weddings, and other celebrations. "
     },
     {
       "id": 2,
@@ -40,7 +48,7 @@
       "img1": "https://drive.google.com/uc?export=view&id=11sqyGGnyIGYlRYvUV_xBdwKdw6JKMqcP",
       "img2": "https://drive.google.com/uc?export=view&id=1TKM007cJ4u2Nqxj_O4_AdnU13qC9lSCp",
       "img3": "https://drive.google.com/uc?export=view&id=17UGIvxvOKf_tVfta4CGTq1aS3WArWQTU",
-      "description": "describe balloonTower"
+      "description": "Balloon towers add an impressive display to a party or special event without requiring helium or special skills to put together. "
     },
     {
       "id": 3,
@@ -48,7 +56,7 @@
       "img1": "https://drive.google.com/uc?export=view&id=1C0C3Zm6iZUosWoIAfoFvtrAlxyl6CLYh",
       "img2": "https://drive.google.com/uc?export=view&id=12mz62IOKIhGISKFTiMdas7j0Cd8_2igs",
       "img3": "https://drive.google.com/uc?export=view&id=1qJJ9Dix-pUjcZvbXAnNefBFJArcINJCV",
-      "description": "describe marqueeNumbersOrLetters"
+      "description": "It is a Custom Balloon Arrangement providing Multiple Messages and a WOW factor. The Perfect Option for any Special Event; Birthdays, Engagement, New Baby etc!"
     },
     {
       "id": 4,
@@ -56,7 +64,7 @@
       "img1": "https://drive.google.com/uc?export=view&id=1hz2oKJAy8vv62jcM6x2Yk9vsbvsI8QnG",
       "img2": "https://drive.google.com/uc?export=view&id=1nM7RfG3-Ku7yecKXnRT7HLy-DJWVeWyV",
       "img3": "https://drive.google.com/uc?export=view&id=1uzEx3jf6miW6t7dJx4VrGwMh1qtJAdZG",
-      "description": "describe heliumBalloons"
+      "description": "Helium balloons are any sort of balloon that use helium as their primary gas to keep them aloft. "
     },
     {
       "id": 5,
@@ -64,7 +72,7 @@
       "img1": "https://drive.google.com/uc?export=view&id=1SYm68t-e8rvAdDpvAiYmV3lTyvVOUNkH",
       "img2": "https://drive.google.com/uc?export=view&id=1o-CX0cwyQAnIUQq59xABays6khLEvxh-",
       "img3": "https://drive.google.com/uc?export=view&id=1zSPkVql4OuZKeK1iPs2_WH5B27D9JANk",
-      "description": "describe bobaBalloons"
+      "description": "Bubble Balloons (similar to Boba balloons) are made from clear stretchy plastic and come with a sealed moisture pack."
     },
     {
       "id": 6,
@@ -72,7 +80,7 @@
       "img1": "https://drive.google.com/uc?export=view&id=1vmPxIvPRQ0GMPrJQkkPjdUxasX33lKoJ",
       "img2": "https://drive.google.com/uc?export=view&id=1l5oj4ajjUsBOQoxokPWRlVtCDnwGhHwn",
       "img3": "https://drive.google.com/uc?export=view&id=1GAbHNj7dHsJVri9T1fudeNHaOsqffUUG",
-      "description": "describe balloonPost"
+      "description": "he balloon post or column is an absolutely iconic party decoration that resembles a post."
     }
   ]
 }

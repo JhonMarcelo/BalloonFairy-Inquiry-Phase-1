@@ -12,7 +12,13 @@
     width: 100%;
     height: 100px;
     display: block;
-    background-color: black;
+    background-color:#ECCDB4;
+}
+.footer{
+    width: 100%;
+    height: 200px;
+    display: block;
+    background-color:#ECCDB4;
 }
 
 .inner_header{
@@ -59,4 +65,16 @@
 
 .formInquiry{
     padding: 2rem;
+}
+
+body{
+    background-color: #F9FBE7;
+}
+
+#carousel-indicators{
+    margin: 0;
+}
+
+#btn{
+    background-color: #FEA1A1 !important;
 }
