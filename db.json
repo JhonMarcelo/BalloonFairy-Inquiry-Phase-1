@@ -31,6 +31,14 @@
       "balloonType": "heliumBalloons",
       "inquiryMessage": "Hi, can I order 50pcs of helium ballons",
       "id": 4
+    },
+    {
+      "fullName": "Glen",
+      "emailAddress": "glen@gmail.com",
+      "phoneNumber": "6477674449",
+      "balloonType": "balloonTower",
+      "inquiryMessage": "Hi, I want to inquire about a balloon tower, Mario brother's themed. Please get back to me.\nthank you",
+      "id": 5
     }
   ],
   "balloon_types": [
